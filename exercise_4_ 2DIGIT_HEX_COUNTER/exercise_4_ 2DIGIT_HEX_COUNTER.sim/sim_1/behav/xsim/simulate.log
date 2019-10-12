@@ -1,0 +1,1024 @@
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+Error: error check load: firstDigit
+Time: 2 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 2500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 3 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 3500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 4 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 4500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 5 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 5500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 6 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 6500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 7 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 7500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 8 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 8500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 9 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 9500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 10 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 10500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 11 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 11500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 12 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 12500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 13 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 13500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 14 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 14500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 15 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 15500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 16 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 16500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 17 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 17500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 18 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 18500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 19 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 19500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 20 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 20500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 21 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 21500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 22 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 22500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 23 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 23500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 24 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 24500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 25 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 25500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 26 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 26500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 27 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 27500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 28 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 28500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 29 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 29500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 30 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 30500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 31 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 31500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 32 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 32500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 33 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 33500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 34 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 34500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 35 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 35500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 36 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 36500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 37 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 37500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 38 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 38500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 39 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 39500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 40 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 40500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 41 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 41500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 42 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 42500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 43 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 43500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 44 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 44500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 45 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 45500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 46 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 46500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 47 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 47500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 48 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 48500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 49 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 49500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 50 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 50500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 51 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 51500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 52 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 52500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 53 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 53500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 54 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 54500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 55 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 55500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 56 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 56500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 57 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 57500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 58 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 58500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 59 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 59500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 60 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 60500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 61 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 61500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 62 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 62500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 63 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 63500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 64 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 64500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 65 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 65500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 66 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 66500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 67 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 67500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 68 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 68500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 69 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 69500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 70 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 70500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 71 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 71500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 72 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 72500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 73 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 73500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 74 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 74500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 75 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 75500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 76 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 76500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 77 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 77500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 78 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 78500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 79 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 79500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 80 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 80500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 81 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 81500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 82 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 82500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 83 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 83500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 84 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 84500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 85 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 85500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 86 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 86500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 87 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 87500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 88 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 88500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 89 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 89500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 90 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 90500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 91 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 91500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 92 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 92500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 93 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 93500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 94 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 94500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 95 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 95500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 96 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 96500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 97 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 97500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 98 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 98500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 99 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 99500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 100 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 100500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 101 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 101500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 102 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 102500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 103 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 103500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 104 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 104500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 105 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 105500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 106 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 106500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 107 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 107500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 108 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 108500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 109 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 109500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 110 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 110500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 111 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 111500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 112 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 112500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 113 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 113500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 114 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 114500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 115 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 115500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 116 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 116500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 117 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 117500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 118 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 118500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 119 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 119500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 120 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 120500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 121 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 121500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 122 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 122500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 123 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 123500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 124 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 124500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 125 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 125500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 126 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 126500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 127 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 127500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 128 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 128500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 129 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 640 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 640500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 641 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 641500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 642 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 642500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 643 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 643500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 644 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 644500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 645 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 645500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 646 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 646500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 647 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 647500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 648 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 648500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 649 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 649500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 650 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 650500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 651 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 651500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 652 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 652500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 653 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 653500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 654 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 654500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 655 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 655500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 656 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 656500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 657 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 657500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 658 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 658500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 659 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 659500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 660 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 660500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 661 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 661500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 662 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 662500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 663 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 663500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 664 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 664500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 665 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 665500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 666 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 666500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 667 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 667500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 668 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 668500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 669 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 669500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 670 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 670500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 671 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 671500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 672 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 672500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 673 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 673500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 674 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 674500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 675 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 675500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 676 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 676500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 677 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 677500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 678 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 678500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 679 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 679500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 680 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 680500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 681 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 681500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 682 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 682500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 683 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 683500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 684 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 684500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 685 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 685500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 686 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 686500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 687 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 687500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 688 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 688500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 689 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 689500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 690 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 690500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 691 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 691500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 692 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 692500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 693 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 693500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 694 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 694500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 695 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 695500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 696 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 696500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 697 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 697500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 698 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 698500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 699 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 699500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 700 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 700500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 701 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 701500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 702 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 702500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 703 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 703500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 704 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 704500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 705 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 705500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 706 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 706500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 707 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 707500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 708 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 708500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 709 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 709500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 710 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 710500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 711 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 711500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 712 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 712500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 713 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 713500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 714 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 714500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 715 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 715500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 716 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 716500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 717 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 717500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 718 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 718500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 719 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 719500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 720 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 720500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 721 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 721500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 722 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 722500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 723 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 723500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 724 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 724500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 725 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 725500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 726 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 726500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 727 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 727500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 728 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 728500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 729 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 729500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 730 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 730500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 731 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 731500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 732 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 732500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 733 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 733500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 734 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 734500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 735 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 735500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 736 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 736500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 737 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 737500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 738 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 738500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 739 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 739500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 740 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 740500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 741 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 741500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 742 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 742500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 743 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 743500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 744 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 744500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 745 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 745500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 746 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 746500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 747 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 747500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 748 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 748500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 749 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 749500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 750 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 750500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 751 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 751500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 752 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 752500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 753 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 753500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 754 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 754500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 755 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 755500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 756 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 756500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 757 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 757500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 758 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 758500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 759 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 759500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 760 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 760500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 761 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 761500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 762 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 762500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 763 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 763500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 764 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 764500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 765 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 765500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 766 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 766500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 767 ns  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd
+Error: error check load: firstDigit
+Time: 767500 ps  Iteration: 0  Process: /count2D_tb/line__49  File: C:/vhdl/exercise_4_ 2DIGIT_HEX_COUNTER/exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd

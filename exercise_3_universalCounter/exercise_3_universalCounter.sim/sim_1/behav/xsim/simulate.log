@@ -1,0 +1,150 @@
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+Error: error temp check increment
+Time: 200 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error flag
+Time: 200 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error temp check increment
+Time: 210 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error temp check increment
+Time: 220 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error temp check increment
+Time: 230 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error temp check increment
+Time: 240 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error temp check increment
+Time: 250 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error temp check increment
+Time: 260 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error temp check increment
+Time: 280 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error temp check increment
+Time: 290 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error temp check increment
+Time: 300 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error temp check increment
+Time: 310 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error temp check increment
+Time: 320 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error temp check increment
+Time: 330 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error temp check increment
+Time: 340 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error flag
+Time: 350 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error temp check increment
+Time: 360 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error temp check increment
+Time: 370 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error flag
+Time: 370 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error temp check increment
+Time: 380 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error flag
+Time: 380 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error temp check increment
+Time: 390 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error flag
+Time: 390 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error temp check increment
+Time: 400 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error flag
+Time: 400 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error temp check increment
+Time: 410 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error flag
+Time: 410 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error temp check increment
+Time: 420 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error flag
+Time: 420 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error flag
+Time: 430 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error temp check increment
+Time: 440 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error flag
+Time: 440 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error temp check increment
+Time: 450 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error flag
+Time: 450 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error temp check increment
+Time: 460 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error flag
+Time: 460 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error temp check increment
+Time: 470 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error flag
+Time: 470 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error temp check increment
+Time: 480 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error flag
+Time: 480 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error temp check increment
+Time: 490 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error flag
+Time: 490 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error temp check increment
+Time: 500 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error flag
+Time: 500 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error check decrement
+Time: 530 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error check decrement
+Time: 540 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error check decrement
+Time: 550 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error check decrement
+Time: 560 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error check decrement
+Time: 570 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error check decrement
+Time: 580 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error check decrement
+Time: 590 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error check decrement
+Time: 610 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error check decrement
+Time: 620 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error check decrement
+Time: 630 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error check decrement
+Time: 640 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error check decrement
+Time: 650 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error check decrement
+Time: 660 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error check decrement
+Time: 670 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error check decrement
+Time: 680 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error check decrement
+Time: 690 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error check decrement
+Time: 700 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error check decrement
+Time: 710 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error check decrement
+Time: 720 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error check decrement
+Time: 730 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error check decrement
+Time: 740 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error check decrement
+Time: 750 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error check decrement
+Time: 760 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error check decrement
+Time: 770 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error check decrement
+Time: 780 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error check decrement
+Time: 790 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error check decrement
+Time: 800 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error check decrement
+Time: 810 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error check decrement
+Time: 820 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd
+Error: error check decrement
+Time: 830 ns  Iteration: 0  Process: /universal_counter_tb/line__51  File: C:/vhdl/exercise_3_universalCounter/exercise_3_universalCounter.srcs/sim_1/new/universal_counter_tb.vhd

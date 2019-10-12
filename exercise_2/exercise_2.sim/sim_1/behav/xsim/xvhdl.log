@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/vhdl/exercise_2/exercise_2.srcs/sources_1/new/tally.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tally
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/vhdl/exercise_2/exercise_2.srcs/sim_1/new/tally_test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tally_test

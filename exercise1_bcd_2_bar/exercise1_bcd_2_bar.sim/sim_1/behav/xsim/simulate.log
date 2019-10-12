@@ -1,0 +1,122 @@
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+Error: ERROR
+Time: 10 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 20 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 40 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 50 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 60 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 70 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 80 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 90 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 100 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 110 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 180 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 190 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 210 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 220 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 230 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 240 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 250 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 260 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 270 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 280 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 350 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 360 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 380 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 390 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 400 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 410 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 420 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 430 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 440 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 450 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 520 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 530 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 550 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 560 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 570 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 580 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 590 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 600 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 610 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 620 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 690 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 700 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 720 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 730 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 740 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 750 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 760 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 770 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 780 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 790 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 860 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 870 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 890 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 900 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 910 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 920 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 930 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 940 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 950 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd
+Error: ERROR
+Time: 960 ns  Iteration: 0  Process: /bcd_2_bar_tb/tb  File: C:/vhdl/exercise1_bcd_2_bar/exercise1_bcd_2_bar.srcs/sim_1/new/bcd_2_bar_tb.vhd

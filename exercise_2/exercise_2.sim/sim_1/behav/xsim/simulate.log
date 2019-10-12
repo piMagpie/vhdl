@@ -1,0 +1,4 @@
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+Error: Assertion violation
+Time: 0 ps  Iteration: 0  Process: /tally_test/line__65  File: C:/vhdl/exercise_2/exercise_2.srcs/sim_1/new/tally_test.vhd
