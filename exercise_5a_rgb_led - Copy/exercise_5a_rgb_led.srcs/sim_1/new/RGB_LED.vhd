@@ -67,14 +67,14 @@ architecture Behavioral of RGB_LED is
 	signal p_TIMER4_INTERRUPTION : std_logic := '0';
 	signal p_TIMER7_INTERRUPTION : std_logic := '0';
 	
-	constant Frequency : natural := 125000000;
+	constant Frequency : natural := 10;
 	constant Frequency1 : natural := Frequency * 1;
 	constant Frequency3 : natural := Frequency * 3;
 	constant Frequency5 : natural := Frequency * 5;
 	constant Frequency4 : natural := Frequency * 4;
 	constant Frequency7 : natural := Frequency * 7;
 
-    constant Frequency01 : natural := 125000000; -- 1 second
+    constant Frequency01 : natural := 1; -- 1 second
 	constant Frequency03 : natural := Frequency01 * 3; -- 3 seconds
 	constant Frequency05 : natural := Frequency01 * 5; -- 5 seconds
 	
@@ -159,33 +159,39 @@ begin
 			else
 				if SPEED = "001" then
 					p_TIME_STATE_ENDED  <= p_TIMER1_INTERRUPTION;
-				elsif SPEED = "010" then
+				elsif SPEED = "011" then
 					p_TIME_STATE_ENDED  <= p_TIMER3_INTERRUPTION;
+				elsif SPEED = "101" then
+                    p_TIME_STATE_ENDED  <= p_TIMER5_INTERRUPTION;
 				else
-					p_TIME_STATE_ENDED  <= p_TIMER5_INTERRUPTION;
+					p_TIME_STATE_ENDED  <= p_TIMER1_INTERRUPTION; -- by the fault 1
 				end if;
 			end if;
 		end if;
 	end process;
 	
 	-- reset all the timers when the current state or the speed changes.
-	timer_reseter: process(CLK)
+	timer_reseter: process(CLK, p_CURRENT_STATE)
+		variable previous_state : STATE;
 	begin
 		if rising_edge(CLK) then
-			if p_CURRENT_STATE'EVENT or p_CURRENT_STATE'EVENT then
-				p_TIMER_RESET <= '1';
-			else
+			if previous_state = p_CURRENT_STATE then
 				p_TIMER_RESET <= '0';
+			else
+			    previous_state := p_CURRENT_STATE;
+				p_TIMER_RESET <= '1';
 			end if;
 		
 		end if;
     end process;
     	
 	-- changes the state when there is a timer interruption
-	cbl_process : process(p_TIME_STATE_ENDED)
+	cbl_process : process(p_TIME_STATE_ENDED, RESET)
 		variable p_UP  : std_logic := '1';
 	begin
-		if p_TIME_STATE_ENDED = '1' then
+	    if reset = '1' then
+	       p_NEW_STATE <= STANDBY_STATE;
+		elsif p_TIME_STATE_ENDED = '1' then
 			if p_CURRENT_STATE = STANDBY_STATE then
 				p_UP := '1';
 			end if;

@@ -66,16 +66,10 @@ begin
         speed_debounce: DeBounce port map (  Clock       =>     sysclk,
                                              button_in   =>      btn(3),
                                              pulse_out   =>      d_speed);
-    
-    speed_process: process(sysclk)
-    begin                               
-        led6_r <=  btn(0);
-        led6_g <=  btn(1);
-        led6_b <=  btn(3);
-    end process;
+   
     
        
-    test_process: process(d_speed)
+    test_process: process(d_speed, d_alarm)
         variable  current_speed : std_logic_vector(2 downto 0) := "001";
     begin
         if d_speed = '1' then

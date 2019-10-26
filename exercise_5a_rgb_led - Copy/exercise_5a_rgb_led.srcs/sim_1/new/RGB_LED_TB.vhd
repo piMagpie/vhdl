@@ -50,7 +50,14 @@ begin
     SPEED <= "001";
     ALARM <= '0';
     
-    wait for 5 ns;
+    wait for 100 ns;
+    
+    SPEED <= "011";
+        
+    wait for 100 ns;
+
+    SPEED <= "101";
+     wait for 100 ns;
 
     -- Put test bench stimulus code here
 

@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../exercise_5a_rgb_led.srcs/sources_1/new/Timer.vhd" \
+"../../../../exercise_5a_rgb_led.srcs/sim_1/new/RGB_LED.vhd" \
+
+# Do not sort compile order
+nosort

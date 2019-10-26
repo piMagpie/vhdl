@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sources_1/new/DIGIT_HEX_COUNTER.vhd" \
+"../../../../exercise_4_ 2DIGIT_HEX_COUNTER.srcs/sim_1/new/count2D_tb.vhd" \
+
+# Do not sort compile order
+nosort
