@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="RGB_LED_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="RGB_LED_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="80657206fs"></ZoomStartTime>
+      <ZoomEndTime time="166756929fs"></ZoomEndTime>
+      <Cursor1Time time="1000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="201"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="26" />
+   <wvobject fp_name="/RGB_LED_tb/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RGB_LED_tb/RESET" type="logic">
+      <obj_property name="ElementShortName">RESET</obj_property>
+      <obj_property name="ObjectShortName">RESET</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RGB_LED_tb/BACKWARDS_LOOP" type="logic">
+      <obj_property name="ElementShortName">BACKWARDS_LOOP</obj_property>
+      <obj_property name="ObjectShortName">BACKWARDS_LOOP</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RGB_LED_tb/ALARM" type="logic">
+      <obj_property name="ElementShortName">ALARM</obj_property>
+      <obj_property name="ObjectShortName">ALARM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RGB_LED_tb/SPEED" type="array">
+      <obj_property name="ElementShortName">SPEED[2:0]</obj_property>
+      <obj_property name="ObjectShortName">SPEED[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RGB_LED_tb/R" type="array">
+      <obj_property name="ElementShortName">R[7:0]</obj_property>
+      <obj_property name="ObjectShortName">R[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RGB_LED_tb/G" type="array">
+      <obj_property name="ElementShortName">G[7:0]</obj_property>
+      <obj_property name="ObjectShortName">G[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RGB_LED_tb/B" type="array">
+      <obj_property name="ElementShortName">B[7:0]</obj_property>
+      <obj_property name="ObjectShortName">B[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RGB_LED_tb/uut/p_CURRENT_STATE" type="other">
+      <obj_property name="ElementShortName">p_CURRENT_STATE</obj_property>
+      <obj_property name="ObjectShortName">p_CURRENT_STATE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RGB_LED_tb/uut/p_NEW_STATE" type="other">
+      <obj_property name="ElementShortName">p_NEW_STATE</obj_property>
+      <obj_property name="ObjectShortName">p_NEW_STATE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RGB_LED_tb/uut/p_PREVIOUS_STATE" type="other">
+      <obj_property name="ElementShortName">p_PREVIOUS_STATE</obj_property>
+      <obj_property name="ObjectShortName">p_PREVIOUS_STATE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RGB_LED_tb/uut/p_TIME_STATE_ENDED" type="logic">
+      <obj_property name="ElementShortName">p_TIME_STATE_ENDED</obj_property>
+      <obj_property name="ObjectShortName">p_TIME_STATE_ENDED</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RGB_LED_tb/uut/Frequency" type="other">
+      <obj_property name="ElementShortName">Frequency</obj_property>
+      <obj_property name="ObjectShortName">Frequency</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RGB_LED_tb/uut/Frequency1" type="other">
+      <obj_property name="ElementShortName">Frequency1</obj_property>
+      <obj_property name="ObjectShortName">Frequency1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RGB_LED_tb/uut/Frequency3" type="other">
+      <obj_property name="ElementShortName">Frequency3</obj_property>
+      <obj_property name="ObjectShortName">Frequency3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RGB_LED_tb/uut/Frequency4" type="other">
+      <obj_property name="ElementShortName">Frequency4</obj_property>
+      <obj_property name="ObjectShortName">Frequency4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RGB_LED_tb/uut/Frequency5" type="other">
+      <obj_property name="ElementShortName">Frequency5</obj_property>
+      <obj_property name="ObjectShortName">Frequency5</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RGB_LED_tb/uut/Frequency7" type="other">
+      <obj_property name="ElementShortName">Frequency7</obj_property>
+      <obj_property name="ObjectShortName">Frequency7</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RGB_LED_tb/uut/Frequency01" type="other">
+      <obj_property name="ElementShortName">Frequency01</obj_property>
+      <obj_property name="ObjectShortName">Frequency01</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RGB_LED_tb/uut/Frequency03" type="other">
+      <obj_property name="ElementShortName">Frequency03</obj_property>
+      <obj_property name="ObjectShortName">Frequency03</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RGB_LED_tb/uut/Frequency05" type="other">
+      <obj_property name="ElementShortName">Frequency05</obj_property>
+      <obj_property name="ObjectShortName">Frequency05</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RGB_LED_tb/uut/p_TIMER1_INTERRUPTION" type="logic">
+      <obj_property name="ElementShortName">p_TIMER1_INTERRUPTION</obj_property>
+      <obj_property name="ObjectShortName">p_TIMER1_INTERRUPTION</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RGB_LED_tb/uut/p_TIMER4_INTERRUPTION" type="logic">
+      <obj_property name="ElementShortName">p_TIMER4_INTERRUPTION</obj_property>
+      <obj_property name="ObjectShortName">p_TIMER4_INTERRUPTION</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RGB_LED_tb/uut/p_TIMER7_INTERRUPTION" type="logic">
+      <obj_property name="ElementShortName">p_TIMER7_INTERRUPTION</obj_property>
+      <obj_property name="ObjectShortName">p_TIMER7_INTERRUPTION</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RGB_LED_tb/uut/p_TIMER01_INTERRUPTION" type="logic">
+      <obj_property name="ElementShortName">p_TIMER01_INTERRUPTION</obj_property>
+      <obj_property name="ObjectShortName">p_TIMER01_INTERRUPTION</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RGB_LED_tb/uut/p_TIME_BLINK_ENDED" type="logic">
+      <obj_property name="ElementShortName">p_TIME_BLINK_ENDED</obj_property>
+      <obj_property name="ObjectShortName">p_TIME_BLINK_ENDED</obj_property>
+   </wvobject>
+</wave_config>

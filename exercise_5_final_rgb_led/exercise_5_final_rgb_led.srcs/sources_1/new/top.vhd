@@ -7,6 +7,7 @@ entity Top is
     Port
     (sysclk:      in std_logic;
      btn:         in std_logic_vector(3 downto 0); -- speed 1
+     led:         out std_logic_vector(3 downto 0); -- speed 1
      -- speed 3
      -- speed 5
      -- alarm
@@ -68,32 +69,40 @@ begin
                                              pulse_out   =>      d_speed);
    
     
-       
-    speed_process: process(d_speed)
+    led(0) <= btn(0); 
+    led(1) <= btn(1); 
+    led(2) <= btn(2); 
+    led(3) <= btn(3);
+     
+    speed_process: process(sysclk, d_speed)
         variable  current_speed : std_logic_vector(2 downto 0) := "001";
     begin
-        if d_speed = '1' then
-            if current_speed = "001" then -- 1 sec
-               current_speed := "011"; -- 3 sec
-            elsif current_speed = "011" then -- 3 sec
-                current_speed := "101"; -- 5 sec
-            elsif current_speed = "101" then -- 3 sec
-                current_speed := "001"; -- 1 sec
+        if rising_edge(sysclk) then
+            if d_speed = '1' then
+                if current_speed = "001" then -- 1 sec
+                   current_speed := "011"; -- 3 sec
+                elsif current_speed = "011" then -- 3 sec
+                    current_speed := "101"; -- 5 sec
+                elsif current_speed = "101" then -- 3 sec
+                    current_speed := "001"; -- 1 sec
+                end if;
+                speed_t <= current_speed;
             end if;
-            speed_t <= current_speed;
         end if;
     end process;   
     
-    backward_process: process(d_backward_loop)
+    backward_process: process(sysclk, d_backward_loop)
             variable backward : std_logic := '0';
         begin
-            if d_backward_loop = '1' then
-                if backward = '0' then
-                   backward := '1';
-                else
-                    backward := '0';
+            if rising_edge(sysclk) then
+                if d_backward_loop = '1' then
+                    if backward = '0' then
+                       backward := '1';
+                    else
+                        backward := '0';
+                    end if;
+                    backward_loop <= backward;
                 end if;
-                backward_loop <= backward;
             end if;
         end process; 
              

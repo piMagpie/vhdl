@@ -1,0 +1,532 @@
+
+*** Running vivado
+    with args -log Top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Top.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source Top.tcl -notrace
+Command: synth_design -top Top -part xc7z020clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 12260 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 385.426 ; gain = 98.793
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Top' [C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/sources_1/new/top.vhd:23]
+INFO: [Synth 8-3491] module 'RGB_LED' declared at 'C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/sources_1/new/rgb_led.vhd:15' bound to instance 'uut_t' of component 'RGB_LED' [C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/sources_1/new/top.vhd:46]
+INFO: [Synth 8-638] synthesizing module 'RGB_LED' [C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/sources_1/new/rgb_led.vhd:26]
+	Parameter TRIGGER_COUNT bound to: 125000000 - type: integer 
+INFO: [Synth 8-3491] module 'Timer' declared at 'C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/sources_1/new/timer.vhd:5' bound to instance 'U1' of component 'Timer' [C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/sources_1/new/rgb_led.vhd:87]
+INFO: [Synth 8-638] synthesizing module 'Timer' [C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/sources_1/new/timer.vhd:17]
+	Parameter TRIGGER_COUNT bound to: 125000000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Timer' (1#1) [C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/sources_1/new/timer.vhd:17]
+	Parameter TRIGGER_COUNT bound to: 12500000 - type: integer 
+INFO: [Synth 8-3491] module 'Timer' declared at 'C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/sources_1/new/timer.vhd:5' bound to instance 'U01' of component 'Timer' [C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/sources_1/new/rgb_led.vhd:94]
+INFO: [Synth 8-638] synthesizing module 'Timer__parameterized1' [C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/sources_1/new/timer.vhd:17]
+	Parameter TRIGGER_COUNT bound to: 12500000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Timer__parameterized1' (1#1) [C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/sources_1/new/timer.vhd:17]
+	Parameter TRIGGER_COUNT bound to: 375000000 - type: integer 
+INFO: [Synth 8-3491] module 'Timer' declared at 'C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/sources_1/new/timer.vhd:5' bound to instance 'U3' of component 'Timer' [C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/sources_1/new/rgb_led.vhd:101]
+INFO: [Synth 8-638] synthesizing module 'Timer__parameterized3' [C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/sources_1/new/timer.vhd:17]
+	Parameter TRIGGER_COUNT bound to: 375000000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Timer__parameterized3' (1#1) [C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/sources_1/new/timer.vhd:17]
+	Parameter TRIGGER_COUNT bound to: 37500000 - type: integer 
+INFO: [Synth 8-3491] module 'Timer' declared at 'C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/sources_1/new/timer.vhd:5' bound to instance 'U03' of component 'Timer' [C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/sources_1/new/rgb_led.vhd:108]
+INFO: [Synth 8-638] synthesizing module 'Timer__parameterized5' [C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/sources_1/new/timer.vhd:17]
+	Parameter TRIGGER_COUNT bound to: 37500000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Timer__parameterized5' (1#1) [C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/sources_1/new/timer.vhd:17]
+	Parameter TRIGGER_COUNT bound to: 625000000 - type: integer 
+INFO: [Synth 8-3491] module 'Timer' declared at 'C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/sources_1/new/timer.vhd:5' bound to instance 'U5' of component 'Timer' [C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/sources_1/new/rgb_led.vhd:115]
+INFO: [Synth 8-638] synthesizing module 'Timer__parameterized7' [C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/sources_1/new/timer.vhd:17]
+	Parameter TRIGGER_COUNT bound to: 625000000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Timer__parameterized7' (1#1) [C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/sources_1/new/timer.vhd:17]
+	Parameter TRIGGER_COUNT bound to: 62500000 - type: integer 
+INFO: [Synth 8-3491] module 'Timer' declared at 'C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/sources_1/new/timer.vhd:5' bound to instance 'U05' of component 'Timer' [C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/sources_1/new/rgb_led.vhd:121]
+INFO: [Synth 8-638] synthesizing module 'Timer__parameterized9' [C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/sources_1/new/timer.vhd:17]
+	Parameter TRIGGER_COUNT bound to: 62500000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Timer__parameterized9' (1#1) [C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/sources_1/new/timer.vhd:17]
+	Parameter TRIGGER_COUNT bound to: 500000000 - type: integer 
+INFO: [Synth 8-3491] module 'Timer' declared at 'C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/sources_1/new/timer.vhd:5' bound to instance 'U4' of component 'Timer' [C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/sources_1/new/rgb_led.vhd:128]
+INFO: [Synth 8-638] synthesizing module 'Timer__parameterized11' [C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/sources_1/new/timer.vhd:17]
+	Parameter TRIGGER_COUNT bound to: 500000000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Timer__parameterized11' (1#1) [C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/sources_1/new/timer.vhd:17]
+	Parameter TRIGGER_COUNT bound to: 875000000 - type: integer 
+INFO: [Synth 8-3491] module 'Timer' declared at 'C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/sources_1/new/timer.vhd:5' bound to instance 'U7' of component 'Timer' [C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/sources_1/new/rgb_led.vhd:135]
+INFO: [Synth 8-638] synthesizing module 'Timer__parameterized13' [C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/sources_1/new/timer.vhd:17]
+	Parameter TRIGGER_COUNT bound to: 875000000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Timer__parameterized13' (1#1) [C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/sources_1/new/timer.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'RGB_LED' (2#1) [C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/sources_1/new/rgb_led.vhd:26]
+INFO: [Synth 8-3491] module 'DeBounce' declared at 'C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/sources_1/new/debounce.vhd:5' bound to instance 'reset_debounce' of component 'DeBounce' [C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/sources_1/new/top.vhd:55]
+INFO: [Synth 8-638] synthesizing module 'DeBounce' [C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/sources_1/new/debounce.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'DeBounce' (3#1) [C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/sources_1/new/debounce.vhd:12]
+INFO: [Synth 8-3491] module 'DeBounce' declared at 'C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/sources_1/new/debounce.vhd:5' bound to instance 'loop_debounce' of component 'DeBounce' [C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/sources_1/new/top.vhd:59]
+INFO: [Synth 8-3491] module 'DeBounce' declared at 'C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/sources_1/new/debounce.vhd:5' bound to instance 'alarm_debounce' of component 'DeBounce' [C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/sources_1/new/top.vhd:63]
+INFO: [Synth 8-3491] module 'DeBounce' declared at 'C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/sources_1/new/debounce.vhd:5' bound to instance 'speed_debounce' of component 'DeBounce' [C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/sources_1/new/top.vhd:67]
+WARNING: [Synth 8-3848] Net led6_r in module/entity Top does not have driver. [C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/sources_1/new/top.vhd:17]
+WARNING: [Synth 8-3848] Net led6_g in module/entity Top does not have driver. [C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/sources_1/new/top.vhd:18]
+WARNING: [Synth 8-3848] Net led6_b in module/entity Top does not have driver. [C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/sources_1/new/top.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'Top' (4#1) [C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/sources_1/new/top.vhd:23]
+WARNING: [Synth 8-3331] design Top has unconnected port led6_r
+WARNING: [Synth 8-3331] design Top has unconnected port led6_g
+WARNING: [Synth 8-3331] design Top has unconnected port led6_b
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 440.473 ; gain = 153.840
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 440.473 ; gain = 153.840
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 440.473 ; gain = 153.840
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/constrs_1/new/board.xdc]
+Finished Parsing XDC File [C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/constrs_1/new/board.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/constrs_1/new/board.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 807.160 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 807.160 ; gain = 520.527
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 807.160 ; gain = 520.527
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 807.160 ; gain = 520.527
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "INTERRUPTION" won't be mapped to RAM because address size (27) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "INTERRUPTION" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "INTERRUPTION" won't be mapped to RAM because address size (29) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "INTERRUPTION" won't be mapped to RAM because address size (26) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "INTERRUPTION" won't be mapped to RAM because address size (30) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "INTERRUPTION" won't be mapped to RAM because address size (26) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "INTERRUPTION" won't be mapped to RAM because address size (29) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "INTERRUPTION" won't be mapped to RAM because address size (30) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "p_TIME_BLINK_ENDED" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "p_NEW_STATE" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "p_UP" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "p_UP" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5545] ROM "state" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "count" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-4471] merging register 'speed_t_reg[2:0]' into 'current_speed_reg[2:0]' [C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/sources_1/new/top.vhd:50]
+INFO: [Synth 8-4471] merging register 'backward_loop_reg' into 'backward_reg' [C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/sources_1/new/top.vhd:48]
+WARNING: [Synth 8-6014] Unused sequential element speed_t_reg was removed.  [C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/sources_1/new/top.vhd:50]
+WARNING: [Synth 8-6014] Unused sequential element backward_loop_reg was removed.  [C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/sources_1/new/top.vhd:48]
+INFO: [Synth 8-802] inferred FSM for state register 'current_speed_reg' in module 'Top'
+WARNING: [Synth 8-327] inferring latch for variable 'blinkFlag_reg' [C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.srcs/sources_1/new/rgb_led.vhd:265]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                              001 |                              001
+                 iSTATE0 |                              010 |                              011
+                 iSTATE1 |                              100 |                              101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_speed_reg' using encoding 'one-hot' in module 'Top'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 807.160 ; gain = 520.527
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 5     
+	   2 Input     30 Bit       Adders := 2     
+	   2 Input     29 Bit       Adders := 2     
+	   2 Input     27 Bit       Adders := 1     
+	   2 Input     26 Bit       Adders := 2     
+	   2 Input     24 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 4     
+	               30 Bit    Registers := 2     
+	               29 Bit    Registers := 2     
+	               27 Bit    Registers := 1     
+	               26 Bit    Registers := 2     
+	               24 Bit    Registers := 1     
+	                3 Bit    Registers := 4     
+	                1 Bit    Registers := 24    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 4     
+	   2 Input     30 Bit        Muxes := 2     
+	   2 Input     29 Bit        Muxes := 2     
+	   2 Input     27 Bit        Muxes := 1     
+	   2 Input     26 Bit        Muxes := 2     
+	   2 Input     24 Bit        Muxes := 1     
+	   8 Input      8 Bit        Muxes := 3     
+	   2 Input      3 Bit        Muxes := 11    
+	   4 Input      3 Bit        Muxes := 1     
+	  10 Input      3 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 27    
+	   5 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Top 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   3 Input      3 Bit        Muxes := 2     
+Module Timer 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     27 Bit       Adders := 1     
++---Registers : 
+	               27 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     27 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module Timer__parameterized1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     24 Bit       Adders := 1     
++---Registers : 
+	               24 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     24 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module Timer__parameterized3 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     29 Bit       Adders := 1     
++---Registers : 
+	               29 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     29 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module Timer__parameterized5 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     26 Bit       Adders := 1     
++---Registers : 
+	               26 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     26 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module Timer__parameterized7 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     30 Bit       Adders := 1     
++---Registers : 
+	               30 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     30 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module Timer__parameterized9 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     26 Bit       Adders := 1     
++---Registers : 
+	               26 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     26 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module Timer__parameterized11 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     29 Bit       Adders := 1     
++---Registers : 
+	               29 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     29 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module Timer__parameterized13 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     30 Bit       Adders := 1     
++---Registers : 
+	               30 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     30 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module RGB_LED 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 2     
++---Registers : 
+	                3 Bit    Registers := 4     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   8 Input      8 Bit        Muxes := 3     
+	   2 Input      3 Bit        Muxes := 11    
+	   4 Input      3 Bit        Muxes := 1     
+	  10 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 15    
+	   5 Input      1 Bit        Muxes := 1     
+Module DeBounce 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5544] ROM "p_TIME_BLINK_ENDED" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5545] ROM "U1/INTERRUPTION" won't be mapped to RAM because address size (27) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "U01/INTERRUPTION" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "U3/INTERRUPTION" won't be mapped to RAM because address size (29) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "U03/INTERRUPTION" won't be mapped to RAM because address size (26) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "U5/INTERRUPTION" won't be mapped to RAM because address size (30) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "U05/INTERRUPTION" won't be mapped to RAM because address size (26) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "U4/INTERRUPTION" won't be mapped to RAM because address size (29) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "U7/INTERRUPTION" won't be mapped to RAM because address size (30) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "uut_t/U1/INTERRUPTION" won't be mapped to RAM because address size (27) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "uut_t/U5/INTERRUPTION" won't be mapped to RAM because address size (30) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "uut_t/U3/INTERRUPTION" won't be mapped to RAM because address size (29) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "uut_t/U7/INTERRUPTION" won't be mapped to RAM because address size (30) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "uut_t/U4/INTERRUPTION" won't be mapped to RAM because address size (29) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "uut_t/U01/INTERRUPTION" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "uut_t/U05/INTERRUPTION" won't be mapped to RAM because address size (26) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "uut_t/U03/INTERRUPTION" won't be mapped to RAM because address size (26) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "reset_debounce/count" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "loop_debounce/count" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "alarm_debounce/count" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "speed_debounce/count" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+WARNING: [Synth 8-3331] design Top has unconnected port led6_r
+WARNING: [Synth 8-3331] design Top has unconnected port led6_g
+WARNING: [Synth 8-3331] design Top has unconnected port led6_b
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 807.160 ; gain = 520.527
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:34 ; elapsed = 00:00:38 . Memory (MB): peak = 807.160 ; gain = 520.527
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:35 ; elapsed = 00:00:39 . Memory (MB): peak = 822.797 ; gain = 536.164
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:35 ; elapsed = 00:00:39 . Memory (MB): peak = 822.797 ; gain = 536.164
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:37 ; elapsed = 00:00:41 . Memory (MB): peak = 822.797 ; gain = 536.164
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:37 ; elapsed = 00:00:41 . Memory (MB): peak = 822.797 ; gain = 536.164
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:37 ; elapsed = 00:00:41 . Memory (MB): peak = 822.797 ; gain = 536.164
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:37 ; elapsed = 00:00:41 . Memory (MB): peak = 822.797 ; gain = 536.164
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:37 ; elapsed = 00:00:41 . Memory (MB): peak = 822.797 ; gain = 536.164
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:37 ; elapsed = 00:00:41 . Memory (MB): peak = 822.797 ; gain = 536.164
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |   121|
+|3     |LUT1   |     2|
+|4     |LUT2   |    70|
+|5     |LUT3   |   121|
+|6     |LUT4   |    69|
+|7     |LUT5   |   153|
+|8     |LUT6   |    26|
+|9     |FDRE   |   420|
+|10    |LD     |     1|
+|11    |IBUF   |     5|
+|12    |OBUF   |     7|
+|13    |OBUFT  |     3|
++------+-------+------+
+
+Report Instance Areas: 
++------+-----------------+-----------------------+------+
+|      |Instance         |Module                 |Cells |
++------+-----------------+-----------------------+------+
+|1     |top              |                       |   999|
+|2     |  alarm_debounce |DeBounce               |    54|
+|3     |  loop_debounce  |DeBounce_0             |    55|
+|4     |  reset_debounce |DeBounce_1             |    54|
+|5     |  speed_debounce |DeBounce_2             |    57|
+|6     |  uut_t          |RGB_LED                |   647|
+|7     |    U01          |Timer__parameterized1  |    63|
+|8     |    U03          |Timer__parameterized5  |    70|
+|9     |    U05          |Timer__parameterized9  |    68|
+|10    |    U1           |Timer                  |    71|
+|11    |    U3           |Timer__parameterized3  |    74|
+|12    |    U4           |Timer__parameterized11 |    74|
+|13    |    U5           |Timer__parameterized7  |    77|
+|14    |    U7           |Timer__parameterized13 |    78|
++------+-----------------+-----------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:37 ; elapsed = 00:00:41 . Memory (MB): peak = 822.797 ; gain = 536.164
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 6 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:25 ; elapsed = 00:00:31 . Memory (MB): peak = 822.797 ; gain = 169.477
+Synthesis Optimization Complete : Time (s): cpu = 00:00:37 ; elapsed = 00:00:41 . Memory (MB): peak = 822.797 ; gain = 536.164
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 127 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  LD => LDCE: 1 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+86 Infos, 12 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:38 ; elapsed = 00:00:43 . Memory (MB): peak = 825.516 ; gain = 550.625
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/vhdl/exercise_5_final_rgb_led/exercise_5_final_rgb_led.runs/synth_1/Top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Top_utilization_synth.rpt -pb Top_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.051 . Memory (MB): peak = 825.516 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Oct 30 11:17:00 2019...
