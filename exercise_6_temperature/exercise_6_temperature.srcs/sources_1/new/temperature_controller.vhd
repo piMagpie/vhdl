@@ -18,10 +18,10 @@ Port (
 	-- inputs
 	CLK 				: in std_logic;
 	
-	RESET				: in std_logic;
+	RESET				: in std_logic; -- todo
 	CALIBRATION 		: in std_logic;
 	DISABLE_ALARM 		: in std_logic;
-	DISABLE_BUZZER		: in std_logic;
+	DISABLE_BUZZER		: in std_logic; -- todo
 	
 	ANALOG_TEMP			: in std_logic_vector(7 downto 0);
 	
@@ -82,6 +82,7 @@ architecture Behavioral of Temperature_Controller is
 	constant COOL_TEMP_FREQ : natural := FREQ * 10;
 	 -- When the alarm is turnoff the temperature will not be measured for 30 sec
 	constant NO_MEASURE_TEMP_FREQ : natural := FREQ * 30;
+	constant CALIBRATION_BLINK_FREQ : natural := FREQ * 2;
 	-----------------------------------------------
 
 	
@@ -107,10 +108,12 @@ architecture Behavioral of Temperature_Controller is
 	signal p_WARM_ALERT : std_logic := '0';
 	signal p_COOL_ALERT : std_logic := '0';
 	signal p_NO_MEASURE_ALERT : std_logic := '0';
+	signal p_CALIBRATION_ALERT : std_logic := '0';
 	-- signal p_NO_MEASURE_TEMP_ALERT : std_logic := '0';
 	
-
-	signal p_TIME_STATE_ENDED : std_logic := '0';
+    
+	signal p_CALIBRAITON_BLINK_RESET : std_logic := '0';
+	signal p_TIME_CALIBRATION_BLINK_ENDED : std_logic := '0';
 begin
 
     CALIBRATION_TIMER: Timer
@@ -140,6 +143,14 @@ begin
                          RESET           =>  p_NO_MEASURE_TIMER_RESET,
                          INTERRUPTION    =>  p_NO_MEASURE_TEMP_INTERRUPTION
                       );
+                      
+    -- BLINKING
+    CALIBRATION_BLINKING_TIMER: Timer
+             generic map (   TRIGGER_COUNT   =>  CALIBRATION_BLINK_FREQ)
+             port map    (   CLK             =>  CLK,
+                             RESET           =>  p_CALIBRAITON_BLINK_RESET,
+                             INTERRUPTION    =>  p_TIME_CALIBRATION_BLINK_ENDED
+                          );
                                           
 	
 	-- contains the current state and assigns the new state
@@ -159,6 +170,7 @@ begin
 	begin
 		if rising_edge(CLK) then
 			p_CALIBRATION_DONE_ALERT <= '0';
+			
 			if p_CURRENT_STATE = CALIBRATION_STATE then
 				-- scan the temperature
 				if p_CALIBRATION_INTERRUPTION = '1' then
@@ -186,7 +198,8 @@ begin
 
 	begin
 		if rising_edge(CLK) then
-			if p_CURRENT_STATE = STANDBY_STATE then -- INITIAL STATE
+			if p_CALIBRATION_ALERT = '1' 
+			         or p_CURRENT_STATE = STANDBY_STATE then -- INITIAL STATE
 				p_NEW_STATE <= CALIBRATION_STATE;
 			elsif p_CURRENT_STATE = CALIBRATION_STATE then -- CALIBRATION
 				if p_CALIBRATION_DONE_ALERT = '1' then
@@ -220,7 +233,12 @@ begin
 	   variable no_measure_temp : std_logic := '0';
 	begin
 		if rising_edge(CLK) then
-		    if DISABLE_ALARM = '1' and no_measure_temp = '0' then
+		    p_CALIBRATION_ALERT <= '0';
+		    if CALIBRATION = '1' then
+		        p_CALIBRATION_ALERT <= '1';
+		        p_NO_MEASURE_TIMER_RESET <= '0';
+                p_NO_MEASURE_ALERT <= '0';
+		    elsif DISABLE_ALARM = '1' and no_measure_temp = '0' then
 		        no_measure_temp :=  '1';
 		        -- reset time to count 30 seconds
 		        p_NO_MEASURE_TIMER_RESET <= '1';
@@ -309,9 +327,30 @@ begin
 	    end procedure showColor;
 		
 		variable c : COLOR;
-		variable blinkFlag : std_logic := '0';
+		variable calibration_blinkFlag : std_logic := '0';
+		variable alarm_blinkFlag : std_logic := '0';
 	begin
 		c := getColor(p_CURRENT_STATE);
+		if p_CURRENT_STATE = CALIBRATION_STATE then
+              if p_TIME_CALIBRATION_BLINK_ENDED = '1' then
+                calibration_blinkFlag := not calibration_blinkFlag;
+              end if;
+              if calibration_blinkFlag = '0' then
+                c:= NONE;
+              end if;            
+        end if;
 		showColor(c);
+		
+		-- ALARM LED
+		BUZZER <= '0';
+		if p_CURRENT_STATE = RED_STATE then
+            if p_TIME_CALIBRATION_BLINK_ENDED = '1' then
+                alarm_blinkFlag := not alarm_blinkFlag;
+            end if;
+              if alarm_blinkFlag = '1' then
+                BUZZER <= '1';
+              end if;             
+        end if;
+		
 	end process;
 end Behavioral;
