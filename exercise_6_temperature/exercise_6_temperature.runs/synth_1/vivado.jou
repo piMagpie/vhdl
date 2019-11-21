@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Nov 21 19:31:35 2019
+# Process ID: 19328
+# Current directory: C:/vhdl/exercise_6_temperature/exercise_6_temperature.runs/synth_1
+# Command line: vivado.exe -log Temperature_Controller.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Temperature_Controller.tcl
+# Log file: C:/vhdl/exercise_6_temperature/exercise_6_temperature.runs/synth_1/Temperature_Controller.vds
+# Journal file: C:/vhdl/exercise_6_temperature/exercise_6_temperature.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Temperature_Controller.tcl -notrace

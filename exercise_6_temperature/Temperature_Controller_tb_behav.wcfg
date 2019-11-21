@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Temperature_Controller_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Temperature_Controller_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="236622224fs"></ZoomEndTime>
+      <Cursor1Time time="210635000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="189"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="28" />
+   <wvobject fp_name="/Temperature_Controller_tb/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Temperature_Controller_tb/uut/p_NO_MEASURE_TEMP_INTERRUPTION" type="logic">
+      <obj_property name="ElementShortName">p_NO_MEASURE_TEMP_INTERRUPTION</obj_property>
+      <obj_property name="ObjectShortName">p_NO_MEASURE_TEMP_INTERRUPTION</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Temperature_Controller_tb/uut/p_NO_MEASURE_ALERT" type="logic">
+      <obj_property name="ElementShortName">p_NO_MEASURE_ALERT</obj_property>
+      <obj_property name="ObjectShortName">p_NO_MEASURE_ALERT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Temperature_Controller_tb/RESET" type="logic">
+      <obj_property name="ElementShortName">RESET</obj_property>
+      <obj_property name="ObjectShortName">RESET</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Temperature_Controller_tb/CALIBRATION" type="logic">
+      <obj_property name="ElementShortName">CALIBRATION</obj_property>
+      <obj_property name="ObjectShortName">CALIBRATION</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Temperature_Controller_tb/DISABLE_ALARM" type="logic">
+      <obj_property name="ElementShortName">DISABLE_ALARM</obj_property>
+      <obj_property name="ObjectShortName">DISABLE_ALARM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Temperature_Controller_tb/DISABLE_BUZZER" type="logic">
+      <obj_property name="ElementShortName">DISABLE_BUZZER</obj_property>
+      <obj_property name="ObjectShortName">DISABLE_BUZZER</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Temperature_Controller_tb/ANALOG_TEMP" type="array">
+      <obj_property name="ElementShortName">ANALOG_TEMP[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ANALOG_TEMP[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Temperature_Controller_tb/uut/p_CURRENT_STATE" type="other">
+      <obj_property name="ElementShortName">p_CURRENT_STATE</obj_property>
+      <obj_property name="ObjectShortName">p_CURRENT_STATE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Temperature_Controller_tb/uut/p_NEW_STATE" type="other">
+      <obj_property name="ElementShortName">p_NEW_STATE</obj_property>
+      <obj_property name="ObjectShortName">p_NEW_STATE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Temperature_Controller_tb/R" type="array">
+      <obj_property name="ElementShortName">R[7:0]</obj_property>
+      <obj_property name="ObjectShortName">R[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Temperature_Controller_tb/G" type="array">
+      <obj_property name="ElementShortName">G[7:0]</obj_property>
+      <obj_property name="ObjectShortName">G[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Temperature_Controller_tb/B" type="array">
+      <obj_property name="ElementShortName">B[7:0]</obj_property>
+      <obj_property name="ObjectShortName">B[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Temperature_Controller_tb/uut/p_DANGER_ALERT" type="logic">
+      <obj_property name="ElementShortName">p_DANGER_ALERT</obj_property>
+      <obj_property name="ObjectShortName">p_DANGER_ALERT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Temperature_Controller_tb/uut/p_WARM_ALERT" type="logic">
+      <obj_property name="ElementShortName">p_WARM_ALERT</obj_property>
+      <obj_property name="ObjectShortName">p_WARM_ALERT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Temperature_Controller_tb/uut/p_COOL_ALERT" type="logic">
+      <obj_property name="ElementShortName">p_COOL_ALERT</obj_property>
+      <obj_property name="ObjectShortName">p_COOL_ALERT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Temperature_Controller_tb/uut/p_CALIBRATION_INTERRUPTION" type="logic">
+      <obj_property name="ElementShortName">p_CALIBRATION_INTERRUPTION</obj_property>
+      <obj_property name="ObjectShortName">p_CALIBRATION_INTERRUPTION</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Temperature_Controller_tb/uut/p_WARM_INTERRUPTION" type="logic">
+      <obj_property name="ElementShortName">p_WARM_INTERRUPTION</obj_property>
+      <obj_property name="ObjectShortName">p_WARM_INTERRUPTION</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Temperature_Controller_tb/uut/p_COOL_INTERRUPTION" type="logic">
+      <obj_property name="ElementShortName">p_COOL_INTERRUPTION</obj_property>
+      <obj_property name="ObjectShortName">p_COOL_INTERRUPTION</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Temperature_Controller_tb/BUZZER" type="logic">
+      <obj_property name="ElementShortName">BUZZER</obj_property>
+      <obj_property name="ObjectShortName">BUZZER</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Temperature_Controller_tb/CLK_PERIOD" type="other">
+      <obj_property name="ElementShortName">CLK_PERIOD</obj_property>
+      <obj_property name="ObjectShortName">CLK_PERIOD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Temperature_Controller_tb/uut/p_CALIBRATION_DONE_ALERT" type="logic">
+      <obj_property name="ElementShortName">p_CALIBRATION_DONE_ALERT</obj_property>
+      <obj_property name="ObjectShortName">p_CALIBRATION_DONE_ALERT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Temperature_Controller_tb/uut/p_CALIBRATION_TIMER_RESET" type="logic">
+      <obj_property name="ElementShortName">p_CALIBRATION_TIMER_RESET</obj_property>
+      <obj_property name="ObjectShortName">p_CALIBRATION_TIMER_RESET</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Temperature_Controller_tb/uut/p_WARM_TIMER_RESET" type="logic">
+      <obj_property name="ElementShortName">p_WARM_TIMER_RESET</obj_property>
+      <obj_property name="ObjectShortName">p_WARM_TIMER_RESET</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Temperature_Controller_tb/uut/p_COOL_TIMER_RESET" type="logic">
+      <obj_property name="ElementShortName">p_COOL_TIMER_RESET</obj_property>
+      <obj_property name="ObjectShortName">p_COOL_TIMER_RESET</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Temperature_Controller_tb/uut/p_REFERENCE_TEMP" type="other">
+      <obj_property name="ElementShortName">p_REFERENCE_TEMP</obj_property>
+      <obj_property name="ObjectShortName">p_REFERENCE_TEMP</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Temperature_Controller_tb/uut/p_WARNING_TEMP" type="other">
+      <obj_property name="ElementShortName">p_WARNING_TEMP</obj_property>
+      <obj_property name="ObjectShortName">p_WARNING_TEMP</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Temperature_Controller_tb/uut/p_DANGER_TEMP" type="other">
+      <obj_property name="ElementShortName">p_DANGER_TEMP</obj_property>
+      <obj_property name="ObjectShortName">p_DANGER_TEMP</obj_property>
+   </wvobject>
+</wave_config>
