@@ -18,7 +18,7 @@ Port (
 	-- inputs
 	CLK 				: in std_logic;
 	
-	RESET				: in std_logic; -- todo
+	on_off_switch				: in std_logic; -- todo
 	CALIBRATION 		: in std_logic;
 	DISABLE_ALARM 		: in std_logic;
 	DISABLE_BUZZER		: in std_logic; -- todo

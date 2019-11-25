@@ -29,7 +29,7 @@ architecture top_arch of top is
   component Temperature_Controller
   Port (
   	CLK 				: in std_logic;
-  	RESET				: in std_logic;
+  	on_off_switch		: in std_logic;
   	CALIBRATION 		: in std_logic;
   	DISABLE_ALARM 		: in std_logic;
   	DISABLE_BUZZER		: in std_logic;
@@ -67,9 +67,7 @@ architecture top_arch of top is
 			vauxp14_0 : in STD_LOGIC
 		);
 	end component design_1_wrapper;
-	
-	signal RESET: std_logic := '0';
-	
+		
     signal CALIBRATION: std_logic := '0';
     signal DISABLE_ALARM: std_logic := '0';
     signal DISABLE_BUZZER: std_logic := '0';
@@ -88,7 +86,7 @@ architecture top_arch of top is
 	signal xadc_val: std_logic_vector(15 downto 0);
 begin
     uut: Temperature_Controller port map ( CLK             => CLK,
-                                         RESET           => RESET,
+                                         on_off_switch     => '1',
                                          CALIBRATION     => CALIBRATION,
                                          DISABLE_ALARM   => DISABLE_ALARM,
                                          DISABLE_BUZZER  => DISABLE_BUZZER,
