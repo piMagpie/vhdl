@@ -52,7 +52,8 @@ architecture Behavioral of Temperature_Controller is
     
     component Timer is
         generic (
-            TRIGGER_COUNT:    natural
+            MS_TICKS:    natural;
+            MS_TRIGGER_COUNT:    natural
         );
         port (
             CLK:        in      std_logic;
@@ -71,18 +72,18 @@ architecture Behavioral of Temperature_Controller is
 
 	
 	-- FREQUENCES
-	constant FREQ : natural := 10;
+	constant ticks_in_ms : natural := 1;-- 125000;
 	
-	constant CALIBRATION_FREQ : natural := FREQ * 2;
+	constant CALIBRATION_FREQ : natural := 1; --500; -- 500 ms
 	
 	-----------------------------------------------
 	-- Warning temperature frequency
-	constant WARN_TEMP_FREQ : natural := FREQ * 5;
+	constant WARN_TEMP_FREQ : natural := 5; -- 5000; -- 5000 ms 5 sec
 	-- Cool temperature frequency
-	constant COOL_TEMP_FREQ : natural := FREQ * 10;
+	constant COOL_TEMP_FREQ : natural := 10; -- 10000; -- 10000 ms 10 sec
 	 -- When the alarm is turnoff the temperature will not be measured for 30 sec
-	constant NO_MEASURE_TEMP_FREQ : natural := FREQ * 30;
-	constant CALIBRATION_BLINK_FREQ : natural := FREQ * 2;
+	constant NO_MEASURE_TEMP_FREQ : natural := 30; -- 30000; -- 30000 ms 30 sec
+	constant CALIBRATION_BLINK_FREQ : natural := 1;--500; -- 500 ms
 	-----------------------------------------------
 
 	
@@ -117,28 +118,32 @@ architecture Behavioral of Temperature_Controller is
 begin
 
     CALIBRATION_TIMER: Timer
-        generic map (   TRIGGER_COUNT   =>  CALIBRATION_FREQ)
+        generic map (   MS_TICKS   =>  ticks_in_ms, -- 1 ms is X
+                        MS_TRIGGER_COUNT => CALIBRATION_FREQ) -- number of ms
         port map    (   CLK             =>  CLK,
                         RESET           =>  p_CALIBRATION_TIMER_RESET,
                         INTERRUPTION    =>  p_CALIBRATION_INTERRUPTION
                      );
 					 
 	WARM_TIMER: Timer
-		generic map (   TRIGGER_COUNT   =>  WARN_TEMP_FREQ)
+		generic map (     MS_TICKS   =>  ticks_in_ms, -- 1 ms is X
+                          MS_TRIGGER_COUNT =>  WARN_TEMP_FREQ)
 		port map    (   CLK             =>  CLK,
 						RESET           =>  p_WARM_TIMER_RESET,
 						INTERRUPTION    =>  p_WARM_INTERRUPTION
 					 );
 	
 	COOL_TIMER: Timer
-		generic map (   TRIGGER_COUNT   =>  COOL_TEMP_FREQ)
+		generic map (    MS_TICKS   =>  ticks_in_ms, -- 1 ms is X
+                         MS_TRIGGER_COUNT =>  COOL_TEMP_FREQ)
 		port map    (   CLK             =>  CLK,
 						RESET           =>  p_COOL_TIMER_RESET,
 						INTERRUPTION    =>  p_COOL_INTERRUPTION
 					 );
 					 
 	ALARM_OFF_TIMER: Timer
-         generic map (   TRIGGER_COUNT   =>  NO_MEASURE_TEMP_FREQ)
+         generic map (    MS_TICKS   =>  ticks_in_ms, -- 1 ms is X
+                          MS_TRIGGER_COUNT =>  NO_MEASURE_TEMP_FREQ)
          port map    (   CLK             =>  CLK,
                          RESET           =>  p_NO_MEASURE_TIMER_RESET,
                          INTERRUPTION    =>  p_NO_MEASURE_TEMP_INTERRUPTION
@@ -146,7 +151,8 @@ begin
                       
     -- BLINKING
     CALIBRATION_BLINKING_TIMER: Timer
-             generic map (   TRIGGER_COUNT   =>  CALIBRATION_BLINK_FREQ)
+             generic map (   MS_TICKS   =>  ticks_in_ms, -- 1 ms is X
+                             MS_TRIGGER_COUNT => CALIBRATION_BLINK_FREQ)
              port map    (   CLK             =>  CLK,
                              RESET           =>  p_CALIBRAITON_BLINK_RESET,
                              INTERRUPTION    =>  p_TIME_CALIBRATION_BLINK_ENDED
@@ -234,6 +240,8 @@ begin
 	begin
 		if rising_edge(CLK) then
 		    p_CALIBRATION_ALERT <= '0';
+		    p_NO_MEASURE_TIMER_RESET <= '0';
+            p_NO_MEASURE_ALERT <= '0';
 		    if CALIBRATION = '1' then
 		        p_CALIBRATION_ALERT <= '1';
 		        p_NO_MEASURE_TIMER_RESET <= '0';
@@ -243,9 +251,6 @@ begin
 		        -- reset time to count 30 seconds
 		        p_NO_MEASURE_TIMER_RESET <= '1';
 		        p_NO_MEASURE_ALERT <= '1';
-		    else
-		        p_NO_MEASURE_TIMER_RESET <= '0';
-		        p_NO_MEASURE_ALERT <= '0';
 		    end if;
 		    
 			p_WARM_TIMER_RESET <= '0';
@@ -303,7 +308,7 @@ begin
                     p_WARM_TIMER_RESET <= '1';
                     p_COOL_TIMER_RESET <= '1';
                 end if;
-            else -- if the alarm is off
+            else --  -- no_measure_temp = '1' -- if the alarm is off
                 if p_NO_MEASURE_TEMP_INTERRUPTION = '1' then -- check that the 30 secons have expired
                     no_measure_temp := '0';
                 end if;
@@ -313,22 +318,22 @@ begin
 	
 	
 	-- shows the color associated with an state
-	led_process: process(p_CURRENT_STATE)
+	led_process: process(p_CURRENT_STATE, p_TIME_CALIBRATION_BLINK_ENDED)
 	    procedure showColor(c: color) is
 	    begin
 	       case c is
                   when RED            =>        R <= (others => '1'); G <= (others => '0'); B  <= (others => '0'); -- R/RED (255, 0, 0)
                   when GREEN        =>        R <= (others => '0'); G <= (others => '1'); B  <= (others => '0'); -- G/GREEN (0, 255, 0)
                   when BLUE            =>        R <= (others => '0'); G <= "10111111"; B  <= (others => '1'); -- – B/BLUE (0, 191, 255)
-                  when ORANGE        =>        R <= (others => '0'); G <= "10000000"; B  <= (others => '0'); -- O/ORANGE (255, 128, 0)
+                  when ORANGE        =>        R <= (others => '1'); G <= "10000000"; B  <= (others => '0'); -- O/ORANGE (255, 128, 0)
                   when NONE         =>        R <= (others => '0'); G <= (others => '0'); B  <= (others => '0');
                   when others         =>        R <= (others => '0'); G <= (others => '0'); B  <= (others => '0');
                 end case;
 	    end procedure showColor;
 		
 		variable c : COLOR;
-		variable calibration_blinkFlag : std_logic := '0';
-		variable alarm_blinkFlag : std_logic := '0';
+		variable calibration_blinkFlag : std_logic := '1';
+		variable alarm_blinkFlag : std_logic := '1';
 	begin
 		c := getColor(p_CURRENT_STATE);
 		if p_CURRENT_STATE = CALIBRATION_STATE then

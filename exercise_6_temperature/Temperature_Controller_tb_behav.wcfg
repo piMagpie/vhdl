@@ -11,11 +11,11 @@
    </db_ref_list>
    <zoom_setting>
       <ZoomStartTime time="0fs"></ZoomStartTime>
-      <ZoomEndTime time="236622224fs"></ZoomEndTime>
-      <Cursor1Time time="210635000fs"></Cursor1Time>
+      <ZoomEndTime time="40050001fs"></ZoomEndTime>
+      <Cursor1Time time="60160000fs"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="189"></NameColumnWidth>
+      <NameColumnWidth column_width="185"></NameColumnWidth>
       <ValueColumnWidth column_width="58"></ValueColumnWidth>
    </column_width_setting>
    <WVObjectSize size="28" />
@@ -83,10 +83,6 @@
       <obj_property name="ElementShortName">p_COOL_ALERT</obj_property>
       <obj_property name="ObjectShortName">p_COOL_ALERT</obj_property>
    </wvobject>
-   <wvobject fp_name="/Temperature_Controller_tb/uut/p_CALIBRATION_INTERRUPTION" type="logic">
-      <obj_property name="ElementShortName">p_CALIBRATION_INTERRUPTION</obj_property>
-      <obj_property name="ObjectShortName">p_CALIBRATION_INTERRUPTION</obj_property>
-   </wvobject>
    <wvobject fp_name="/Temperature_Controller_tb/uut/p_WARM_INTERRUPTION" type="logic">
       <obj_property name="ElementShortName">p_WARM_INTERRUPTION</obj_property>
       <obj_property name="ObjectShortName">p_WARM_INTERRUPTION</obj_property>
@@ -130,5 +126,9 @@
    <wvobject fp_name="/Temperature_Controller_tb/uut/p_DANGER_TEMP" type="other">
       <obj_property name="ElementShortName">p_DANGER_TEMP</obj_property>
       <obj_property name="ObjectShortName">p_DANGER_TEMP</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Temperature_Controller_tb/uut/p_TIME_CALIBRATION_BLINK_ENDED" type="logic">
+      <obj_property name="ElementShortName">p_TIME_CALIBRATION_BLINK_ENDED</obj_property>
+      <obj_property name="ObjectShortName">p_TIME_CALIBRATION_BLINK_ENDED</obj_property>
    </wvobject>
 </wave_config>

@@ -1,4 +1,2 @@
 INFO: [VRFC 10-163] Analyzing VHDL file "C:/vhdl/exercise_6_temperature/exercise_6_temperature.srcs/sources_1/new/temperature_controller.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity Temperature_Controller
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/vhdl/exercise_6_temperature/exercise_6_temperature.srcs/sim_1/new/temperature_controller_tb.vhd" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity Temperature_Controller_tb

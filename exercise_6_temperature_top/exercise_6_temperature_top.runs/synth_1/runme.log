@@ -1,0 +1,544 @@
+
+*** Running vivado
+    with args -log top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source top.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+Command: synth_design -top top -part xc7z020clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 17284 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 414.277 ; gain = 92.426
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top' [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/new/top.vhd:26]
+INFO: [Synth 8-3491] module 'Temperature_Controller' declared at 'C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/new/temperature_controller.vhd:16' bound to instance 'temp_controller' of component 'Temperature_Controller' [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/new/top.vhd:83]
+INFO: [Synth 8-638] synthesizing module 'Temperature_Controller' [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/new/temperature_controller.vhd:35]
+	Parameter TRIGGER_COUNT bound to: 20 - type: integer 
+INFO: [Synth 8-3491] module 'Timer' declared at 'C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/new/timer.vhd:5' bound to instance 'CALIBRATION_TIMER' of component 'Timer' [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/new/temperature_controller.vhd:119]
+INFO: [Synth 8-638] synthesizing module 'Timer' [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/new/timer.vhd:17]
+	Parameter TRIGGER_COUNT bound to: 20 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Timer' (1#1) [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/new/timer.vhd:17]
+	Parameter TRIGGER_COUNT bound to: 50 - type: integer 
+INFO: [Synth 8-3491] module 'Timer' declared at 'C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/new/timer.vhd:5' bound to instance 'WARM_TIMER' of component 'Timer' [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/new/temperature_controller.vhd:126]
+INFO: [Synth 8-638] synthesizing module 'Timer__parameterized1' [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/new/timer.vhd:17]
+	Parameter TRIGGER_COUNT bound to: 50 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Timer__parameterized1' (1#1) [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/new/timer.vhd:17]
+	Parameter TRIGGER_COUNT bound to: 100 - type: integer 
+INFO: [Synth 8-3491] module 'Timer' declared at 'C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/new/timer.vhd:5' bound to instance 'COOL_TIMER' of component 'Timer' [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/new/temperature_controller.vhd:133]
+INFO: [Synth 8-638] synthesizing module 'Timer__parameterized3' [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/new/timer.vhd:17]
+	Parameter TRIGGER_COUNT bound to: 100 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Timer__parameterized3' (1#1) [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/new/timer.vhd:17]
+	Parameter TRIGGER_COUNT bound to: 300 - type: integer 
+INFO: [Synth 8-3491] module 'Timer' declared at 'C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/new/timer.vhd:5' bound to instance 'ALARM_OFF_TIMER' of component 'Timer' [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/new/temperature_controller.vhd:140]
+INFO: [Synth 8-638] synthesizing module 'Timer__parameterized5' [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/new/timer.vhd:17]
+	Parameter TRIGGER_COUNT bound to: 300 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Timer__parameterized5' (1#1) [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/new/timer.vhd:17]
+	Parameter TRIGGER_COUNT bound to: 20 - type: integer 
+INFO: [Synth 8-3491] module 'Timer' declared at 'C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/new/timer.vhd:5' bound to instance 'CALIBRATION_BLINKING_TIMER' of component 'Timer' [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/new/temperature_controller.vhd:148]
+WARNING: [Synth 8-614] signal 'p_TIME_CALIBRATION_BLINK_ENDED' is read in the process but is not in the sensitivity list [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/new/temperature_controller.vhd:316]
+WARNING: [Synth 8-6014] Unused sequential element p_REFERENCE_TEMP_reg was removed.  [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/new/temperature_controller.vhd:190]
+INFO: [Synth 8-4471] merging register 'p_NO_MEASURE_ALERT_reg' into 'p_NO_MEASURE_TIMER_RESET_reg' [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/new/temperature_controller.vhd:209]
+WARNING: [Synth 8-6014] Unused sequential element p_NO_MEASURE_ALERT_reg was removed.  [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/new/temperature_controller.vhd:209]
+INFO: [Synth 8-256] done synthesizing module 'Temperature_Controller' (2#1) [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/new/temperature_controller.vhd:35]
+INFO: [Synth 8-3491] module 'pwm' declared at 'C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/new/pwm.vhd:14' bound to instance 'pwm_red' of component 'pwm' [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/new/top.vhd:103]
+INFO: [Synth 8-638] synthesizing module 'pwm' [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/new/pwm.vhd:22]
+INFO: [Synth 8-256] done synthesizing module 'pwm' (3#1) [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/new/pwm.vhd:22]
+INFO: [Synth 8-3491] module 'design_1_wrapper' declared at 'C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/imports/hdl/design_1_wrapper.vhd:14' bound to instance 'xadc' of component 'design_1_wrapper' [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/new/top.vhd:109]
+INFO: [Synth 8-638] synthesizing module 'design_1_wrapper' [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/imports/hdl/design_1_wrapper.vhd:25]
+INFO: [Synth 8-3491] module 'design_1' declared at 'C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/bd/design_1/synth/design_1.vhd:14' bound to instance 'design_1_i' of component 'design_1' [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/imports/hdl/design_1_wrapper.vhd:37]
+INFO: [Synth 8-638] synthesizing module 'design_1' [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/bd/design_1/synth/design_1.vhd:29]
+INFO: [Synth 8-3491] module 'design_1_xadc_wiz_0_0' declared at 'C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.runs/synth_1/.Xil/Vivado-12404-agazorPC/realtime/design_1_xadc_wiz_0_0_stub.vhdl:5' bound to instance 'xadc_wiz_0' of component 'design_1_xadc_wiz_0_0' [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/bd/design_1/synth/design_1.vhd:98]
+INFO: [Synth 8-638] synthesizing module 'design_1_xadc_wiz_0_0' [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.runs/synth_1/.Xil/Vivado-12404-agazorPC/realtime/design_1_xadc_wiz_0_0_stub.vhdl:34]
+INFO: [Synth 8-3491] module 'design_1_xlconstant_0_0' declared at 'C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.runs/synth_1/.Xil/Vivado-12404-agazorPC/realtime/design_1_xlconstant_0_0_stub.vhdl:5' bound to instance 'xlconstant_0' of component 'design_1_xlconstant_0_0' [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/bd/design_1/synth/design_1.vhd:124]
+INFO: [Synth 8-638] synthesizing module 'design_1_xlconstant_0_0' [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.runs/synth_1/.Xil/Vivado-12404-agazorPC/realtime/design_1_xlconstant_0_0_stub.vhdl:12]
+INFO: [Synth 8-3491] module 'design_1_xlconstant_0_2' declared at 'C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.runs/synth_1/.Xil/Vivado-12404-agazorPC/realtime/design_1_xlconstant_0_2_stub.vhdl:5' bound to instance 'xlconstant_1' of component 'design_1_xlconstant_0_2' [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/bd/design_1/synth/design_1.vhd:128]
+INFO: [Synth 8-638] synthesizing module 'design_1_xlconstant_0_2' [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.runs/synth_1/.Xil/Vivado-12404-agazorPC/realtime/design_1_xlconstant_0_2_stub.vhdl:12]
+INFO: [Synth 8-256] done synthesizing module 'design_1' (4#1) [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/bd/design_1/synth/design_1.vhd:29]
+INFO: [Synth 8-256] done synthesizing module 'design_1_wrapper' (5#1) [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/imports/hdl/design_1_wrapper.vhd:25]
+WARNING: [Synth 8-3848] Net RESET in module/entity top does not have driver. [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/new/top.vhd:42]
+WARNING: [Synth 8-3848] Net CALIBRATION in module/entity top does not have driver. [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/new/top.vhd:43]
+WARNING: [Synth 8-3848] Net DISABLE_ALARM in module/entity top does not have driver. [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/new/top.vhd:44]
+WARNING: [Synth 8-3848] Net DISABLE_BUZZER in module/entity top does not have driver. [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/new/top.vhd:45]
+WARNING: [Synth 8-3848] Net ANALOG_TEMP in module/entity top does not have driver. [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/new/top.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'top' (6#1) [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/new/top.vhd:26]
+WARNING: [Synth 8-3331] design Temperature_Controller has unconnected port RESET
+WARNING: [Synth 8-3331] design Temperature_Controller has unconnected port DISABLE_BUZZER
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 469.145 ; gain = 147.293
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin temp_controller:CALIBRATION to constant 0 [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/new/top.vhd:83]
+WARNING: [Synth 8-3295] tying undriven pin temp_controller:DISABLE_ALARM to constant 0 [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/new/top.vhd:83]
+WARNING: [Synth 8-3295] tying undriven pin temp_controller:ANALOG_TEMP[7] to constant 0 [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/new/top.vhd:83]
+WARNING: [Synth 8-3295] tying undriven pin temp_controller:ANALOG_TEMP[6] to constant 0 [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/new/top.vhd:83]
+WARNING: [Synth 8-3295] tying undriven pin temp_controller:ANALOG_TEMP[5] to constant 0 [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/new/top.vhd:83]
+WARNING: [Synth 8-3295] tying undriven pin temp_controller:ANALOG_TEMP[4] to constant 0 [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/new/top.vhd:83]
+WARNING: [Synth 8-3295] tying undriven pin temp_controller:ANALOG_TEMP[3] to constant 0 [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/new/top.vhd:83]
+WARNING: [Synth 8-3295] tying undriven pin temp_controller:ANALOG_TEMP[2] to constant 0 [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/new/top.vhd:83]
+WARNING: [Synth 8-3295] tying undriven pin temp_controller:ANALOG_TEMP[1] to constant 0 [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/new/top.vhd:83]
+WARNING: [Synth 8-3295] tying undriven pin temp_controller:ANALOG_TEMP[0] to constant 0 [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/new/top.vhd:83]
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 469.145 ; gain = 147.293
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 469.145 ; gain = 147.293
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/bd/design_1/ip/design_1_xadc_wiz_0_0/design_1_xadc_wiz_0_0/design_1_xadc_wiz_0_0_in_context.xdc] for cell 'xadc/design_1_i/xadc_wiz_0'
+Finished Parsing XDC File [c:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/bd/design_1/ip/design_1_xadc_wiz_0_0/design_1_xadc_wiz_0_0/design_1_xadc_wiz_0_0_in_context.xdc] for cell 'xadc/design_1_i/xadc_wiz_0'
+Parsing XDC File [c:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_0_0/design_1_xlconstant_0_0/design_1_xlconstant_0_0_in_context.xdc] for cell 'xadc/design_1_i/xlconstant_0'
+Finished Parsing XDC File [c:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_0_0/design_1_xlconstant_0_0/design_1_xlconstant_0_0_in_context.xdc] for cell 'xadc/design_1_i/xlconstant_0'
+Parsing XDC File [c:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_0_2/design_1_xlconstant_0_2/design_1_xlconstant_0_2_in_context.xdc] for cell 'xadc/design_1_i/xlconstant_1'
+Finished Parsing XDC File [c:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_0_2/design_1_xlconstant_0_2/design_1_xlconstant_0_2_in_context.xdc] for cell 'xadc/design_1_i/xlconstant_1'
+Parsing XDC File [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/constrs_1/new/board.xdc]
+WARNING: [Vivado 12-584] No ports matched 'clk'. [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/constrs_1/new/board.xdc:8]
+WARNING: [Vivado 12-584] No ports matched 'clk'. [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/constrs_1/new/board.xdc:9]
+Finished Parsing XDC File [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/constrs_1/new/board.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/constrs_1/new/board.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/top_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/constrs_1/new/board.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 827.945 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 827.945 ; gain = 506.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 827.945 ; gain = 506.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for xadc/design_1_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for xadc/design_1_i/xadc_wiz_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for xadc/design_1_i/xlconstant_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for xadc/design_1_i/xlconstant_1. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 827.945 ; gain = 506.094
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "INTERRUPTION" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "INTERRUPTION" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "INTERRUPTION" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "INTERRUPTION" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-327] inferring latch for variable 'calibration_blinkFlag_reg' [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/new/temperature_controller.vhd:336]
+WARNING: [Synth 8-327] inferring latch for variable 'alarm_blinkFlag_reg' [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/new/temperature_controller.vhd:348]
+WARNING: [Synth 8-327] inferring latch for variable 'intensity_reg' [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/new/top.vhd:100]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 827.945 ; gain = 506.094
+---------------------------------------------------------------------------------
+INFO: [Synth 8-223] decloning instance 'temp_controller/CALIBRATION_TIMER' (Timer) to 'temp_controller/CALIBRATION_BLINKING_TIMER'
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input     13 Bit       Adders := 2     
+	   2 Input     12 Bit       Adders := 1     
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	               13 Bit    Registers := 2     
+	               12 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                3 Bit    Registers := 2     
+	                1 Bit    Registers := 14    
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 15    
+	   2 Input      9 Bit        Muxes := 1     
+	   6 Input      8 Bit        Muxes := 3     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   6 Input      3 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 3     
+	   8 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 16    
+	   4 Input      1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Timer 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module Timer__parameterized1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module Timer__parameterized3 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      7 Bit       Adders := 1     
++---Registers : 
+	                7 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module Timer__parameterized5 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      9 Bit       Adders := 1     
++---Registers : 
+	                9 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      9 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module Temperature_Controller 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input     13 Bit       Adders := 2     
+	   2 Input     12 Bit       Adders := 1     
++---Registers : 
+	               13 Bit    Registers := 2     
+	               12 Bit    Registers := 1     
+	                3 Bit    Registers := 2     
+	                1 Bit    Registers := 9     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 15    
+	   6 Input      8 Bit        Muxes := 3     
+	   6 Input      3 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 3     
+	   8 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 12    
+	   4 Input      1 Bit        Muxes := 5     
+Module pwm 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5546] ROM "temp_controller/COOL_TIMER/INTERRUPTION" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "temp_controller/ALARM_OFF_TIMER/INTERRUPTION" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-3332] Sequential element (temp_controller/calibration_blinkFlag_reg) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/alarm_blinkFlag_reg) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/CALIBRATION_TIMER/counter_reg[4]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/CALIBRATION_TIMER/counter_reg[3]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/CALIBRATION_TIMER/counter_reg[2]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/CALIBRATION_TIMER/counter_reg[1]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/CALIBRATION_TIMER/counter_reg[0]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/CALIBRATION_TIMER/INTERRUPTION_reg) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/p_WARM_TIMER_RESET_reg) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/WARM_TIMER/counter_reg[5]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/WARM_TIMER/counter_reg[4]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/WARM_TIMER/counter_reg[3]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/WARM_TIMER/counter_reg[2]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/WARM_TIMER/counter_reg[1]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/WARM_TIMER/counter_reg[0]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/WARM_TIMER/INTERRUPTION_reg) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/p_CALIBRATION_ALERT_reg) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/p_NO_MEASURE_TIMER_RESET_reg) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/ALARM_OFF_TIMER/counter_reg[8]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/ALARM_OFF_TIMER/counter_reg[7]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/ALARM_OFF_TIMER/counter_reg[6]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/ALARM_OFF_TIMER/counter_reg[5]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/ALARM_OFF_TIMER/counter_reg[4]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/ALARM_OFF_TIMER/counter_reg[3]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/ALARM_OFF_TIMER/counter_reg[2]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/ALARM_OFF_TIMER/counter_reg[1]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/ALARM_OFF_TIMER/counter_reg[0]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/ALARM_OFF_TIMER/INTERRUPTION_reg) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/no_measure_temp_reg) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/p_CALIBRATION_DONE_ALERT_reg) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/p_NEW_STATE_reg[2]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/p_NEW_STATE_reg[1]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/p_NEW_STATE_reg[0]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/p_CURRENT_STATE_reg[2]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/p_CURRENT_STATE_reg[1]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/p_CURRENT_STATE_reg[0]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/avg_temp_reg[11]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/avg_temp_reg[10]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/avg_temp_reg[9]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/avg_temp_reg[8]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/avg_temp_reg[7]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/avg_temp_reg[6]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/avg_temp_reg[5]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/avg_temp_reg[4]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/avg_temp_reg[3]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/avg_temp_reg[2]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/avg_temp_reg[1]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/avg_temp_reg[0]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/p_WARNING_TEMP_reg[12]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/p_WARNING_TEMP_reg[11]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/p_WARNING_TEMP_reg[10]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/p_WARNING_TEMP_reg[9]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/p_WARNING_TEMP_reg[8]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/p_WARNING_TEMP_reg[7]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/p_WARNING_TEMP_reg[6]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/p_WARNING_TEMP_reg[5]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/p_WARNING_TEMP_reg[4]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/p_WARNING_TEMP_reg[3]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/p_WARNING_TEMP_reg[2]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/p_WARNING_TEMP_reg[1]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/p_WARNING_TEMP_reg[0]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/p_DANGER_TEMP_reg[12]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/p_DANGER_TEMP_reg[11]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/p_DANGER_TEMP_reg[10]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/p_DANGER_TEMP_reg[9]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/p_DANGER_TEMP_reg[8]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/p_DANGER_TEMP_reg[7]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/p_DANGER_TEMP_reg[6]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/p_DANGER_TEMP_reg[5]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/p_DANGER_TEMP_reg[4]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/p_DANGER_TEMP_reg[3]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/p_DANGER_TEMP_reg[2]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/p_DANGER_TEMP_reg[1]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/p_DANGER_TEMP_reg[0]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/p_WARM_ALERT_reg) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/p_DANGER_ALERT_reg) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/p_COOL_ALERT_reg) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/p_COOL_TIMER_RESET_reg) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/COOL_TIMER/counter_reg[6]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/COOL_TIMER/counter_reg[5]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/COOL_TIMER/counter_reg[4]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/COOL_TIMER/counter_reg[3]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/COOL_TIMER/counter_reg[2]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/COOL_TIMER/counter_reg[1]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/COOL_TIMER/counter_reg[0]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (temp_controller/COOL_TIMER/INTERRUPTION_reg) is unused and will be removed from module top.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 827.945 ; gain = 506.094
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:29 . Memory (MB): peak = 827.945 ; gain = 506.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:29 . Memory (MB): peak = 827.945 ; gain = 506.094
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:24 ; elapsed = 00:00:29 . Memory (MB): peak = 833.766 ; gain = 511.914
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:26 ; elapsed = 00:00:30 . Memory (MB): peak = 833.766 ; gain = 511.914
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:26 ; elapsed = 00:00:30 . Memory (MB): peak = 833.766 ; gain = 511.914
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:26 ; elapsed = 00:00:30 . Memory (MB): peak = 833.766 ; gain = 511.914
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:26 ; elapsed = 00:00:30 . Memory (MB): peak = 833.766 ; gain = 511.914
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3295] tying undriven pin design_1_i:vauxn14_0 to constant 0 [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/imports/hdl/design_1_wrapper.vhd:37]
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:26 ; elapsed = 00:00:30 . Memory (MB): peak = 833.766 ; gain = 511.914
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:26 ; elapsed = 00:00:30 . Memory (MB): peak = 833.766 ; gain = 511.914
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+------------------------+----------+
+|      |BlackBox name           |Instances |
++------+------------------------+----------+
+|1     |design_1_xadc_wiz_0_0   |         1|
+|2     |design_1_xlconstant_0_0 |         1|
+|3     |design_1_xlconstant_0_2 |         1|
++------+------------------------+----------+
+
+Report Cell Usage: 
++------+-------------------------------+------+
+|      |Cell                           |Count |
++------+-------------------------------+------+
+|1     |design_1_xadc_wiz_0_0_bbox_0   |     1|
+|2     |design_1_xlconstant_0_0_bbox_1 |     1|
+|3     |design_1_xlconstant_0_2_bbox_2 |     1|
+|4     |BUFG                           |     1|
+|5     |CARRY4                         |    23|
+|6     |LUT1                           |     1|
+|7     |LUT2                           |    16|
+|8     |LUT3                           |    10|
+|9     |LUT4                           |     8|
+|10    |FDRE                           |    33|
+|11    |LD                             |     8|
+|12    |IBUF                           |     5|
+|13    |OBUF                           |     3|
++------+-------------------------------+------+
+
+Report Instance Areas: 
++------+---------------+-----------------+------+
+|      |Instance       |Module           |Cells |
++------+---------------+-----------------+------+
+|1     |top            |                 |   158|
+|2     |  pwm_red      |pwm              |    91|
+|3     |  xadc         |design_1_wrapper |    50|
+|4     |    design_1_i |design_1         |    50|
++------+---------------+-----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:26 ; elapsed = 00:00:30 . Memory (MB): peak = 833.766 ; gain = 511.914
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 90 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 833.766 ; gain = 153.113
+Synthesis Optimization Complete : Time (s): cpu = 00:00:26 ; elapsed = 00:00:30 . Memory (MB): peak = 833.766 ; gain = 511.914
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 36 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 8 instances were transformed.
+  LD => LDCE: 8 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+56 Infos, 113 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:28 ; elapsed = 00:00:33 . Memory (MB): peak = 843.555 ; gain = 533.176
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.runs/synth_1/top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.073 . Memory (MB): peak = 843.555 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sun Nov 24 21:58:29 2019...

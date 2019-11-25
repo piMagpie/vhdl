@@ -1,0 +1,222 @@
+
+*** Running vivado
+    with args -log top.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source top.tcl -notrace
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source top.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+Command: link_design -top top -part xc7z020clg400-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Project 1-454] Reading design checkpoint 'c:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/bd/design_1/ip/design_1_xadc_wiz_0_0/design_1_xadc_wiz_0_0.dcp' for cell 'xadc/design_1_i/xadc_wiz_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_0_0/design_1_xlconstant_0_0.dcp' for cell 'xadc/design_1_i/xlconstant_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_0_2/design_1_xlconstant_0_2.dcp' for cell 'xadc/design_1_i/xlconstant_1'
+INFO: [Netlist 29-17] Analyzing 29 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [c:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/bd/design_1/ip/design_1_xadc_wiz_0_0/design_1_xadc_wiz_0_0.xdc] for cell 'xadc/design_1_i/xadc_wiz_0/U0'
+Finished Parsing XDC File [c:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/sources_1/bd/design_1/ip/design_1_xadc_wiz_0_0/design_1_xadc_wiz_0_0.xdc] for cell 'xadc/design_1_i/xadc_wiz_0/U0'
+Parsing XDC File [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/constrs_1/new/board.xdc]
+WARNING: [Vivado 12-584] No ports matched 'clk'. [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/constrs_1/new/board.xdc:8]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/constrs_1/new/board.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'clk'. [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/constrs_1/new/board.xdc:9]
+CRITICAL WARNING: [Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_ports clk]'. [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/constrs_1/new/board.xdc:9]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+Finished Parsing XDC File [C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.srcs/constrs_1/new/board.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+13 Infos, 2 Warnings, 2 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 659.059 ; gain = 347.438
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.998 . Memory (MB): peak = 667.691 ; gain = 8.633
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 12d1e2476
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1214.867 ; gain = 547.176
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 12d1e2476
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.277 . Memory (MB): peak = 1214.867 ; gain = 0.000
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 0 cells
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 2 Constant propagation | Checksum: 12d1e2476
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.290 . Memory (MB): peak = 1214.867 ; gain = 0.000
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 0 cells
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 21539d449
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.539 . Memory (MB): peak = 1214.867 ; gain = 0.000
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 0 cells
+
+Phase 4 BUFG optimization
+Phase 4 BUFG optimization | Checksum: 21539d449
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.595 . Memory (MB): peak = 1214.867 ; gain = 0.000
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 5 Shift Register Optimization
+Phase 5 Shift Register Optimization | Checksum: 1517beee3
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.658 . Memory (MB): peak = 1214.867 ; gain = 0.000
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: 1517beee3
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.678 . Memory (MB): peak = 1214.867 ; gain = 0.000
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1214.867 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 1517beee3
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.696 . Memory (MB): peak = 1214.867 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+Ending Power Optimization Task | Checksum: 1517beee3
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.121 . Memory (MB): peak = 1214.867 ; gain = 0.000
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: 1517beee3
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1214.867 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+29 Infos, 2 Warnings, 2 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 1214.867 ; gain = 555.809
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.157 . Memory (MB): peak = 1214.867 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.runs/impl_1/top_opt.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file top_drc_opted.rpt -pb top_drc_opted.pb -rpx top_drc_opted.rpx
+Command: report_drc -file top_drc_opted.rpt -pb top_drc_opted.pb -rpx top_drc_opted.rpx
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/vhdl/exercise_6_temperature_top/exercise_6_temperature_top.runs/impl_1/top_drc_opted.rpt.
+report_drc completed successfully
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1214.867 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: ebbb990a
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.224 . Memory (MB): peak = 1214.867 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1214.867 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+ERROR: [Place 30-58] IO placement is infeasible. Number of unplaced terminals (1) is greater than number of available sites (0).
+The following are banks with available pins: 
+ IO Group: 0 with : SioStd: LVCMOS18   VCCO = 1.8 Termination: 0  TermDir:  In   RangeId: 1  has only 0 sites available on device, but needs 1 sites.
+	Term: CLK
+
+
+ERROR: [Place 30-58] IO placement is infeasible. Number of unplaced terminals (1) is greater than number of available sites (0).
+The following are banks with available pins: 
+ IO Group: 0 with : SioStd: LVCMOS18   VCCO = 1.8 Termination: 0  TermDir:  In   RangeId: 1  has only 0 sites available on device, but needs 1 sites.
+	Term: CLK
+
+
+ERROR: [Place 30-374] IO placer failed to find a solution
+Below is the partial placement that can be analyzed to see if any constraint modifications will make the IO placement problem easier to solve.
+0. CLK
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                                                     IO Placement : Bank Stats                                                                           |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+| Id | Pins  | Terms |                               Standards                                |                IDelayCtrls               |  VREF  |  VCCO  |   VR   | DCI |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+|  0 |     0 |     0 |                                                                        |                                          |        |        |        |     |
+| 13 |    25 |     3 | LVCMOS33(3)                                                            |                                          |        |  +3.30 |    YES |     |
+| 34 |    50 |     2 | LVCMOS33(2)                                                            |                                          |        |  +3.30 |    YES |     |
+| 35 |    50 |     2 | LVCMOS33(2)                                                            |                                          |        |  +3.30 |    YES |     |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+|    |   125 |     7 |                                                                        |                                          |        |        |        |     |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+
+IO Placement:
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+| BankId |             Terminal | Standard        | Site                 | Pin                  | Attributes           |
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+| 13     | led5_b               | LVCMOS33        | IOB_X0Y10            | Y12                  |                      |
+|        | led5_g               | LVCMOS33        | IOB_X0Y12            | T5                   |                      |
+|        | led5_r               | LVCMOS33        | IOB_X0Y13            | Y11                  |                      |
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+| 34     | switch_blue          | LVCMOS33        | IOB_X1Y91            | W13                  |                      |
+|        | switch_green         | LVCMOS33        | IOB_X1Y52            | P15                  |                      |
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+| 35     | adc_input            | LVCMOS33        | IOB_X1Y108           | N15                  |                      |
+|        | switch_red           | LVCMOS33        | IOB_X1Y111           | G15                  | *                    |
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+
+ERROR: [Place 30-69] Instance CLK_IBUF_inst (IBUF driven by I/O terminal CLK) is unplaced after IO placer
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+ERROR: [Place 30-68] Instance CLK_IBUF_BUFG_inst (BUFG) is not placed
+ERROR: [Place 30-68] Instance CLK_IBUF_inst (IBUF) is not placed
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: ebbb990a
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1214.867 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: ebbb990a
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1214.867 ; gain = 0.000
+ERROR: [Place 30-99] Placer failed with error: 'IO Clock Placer failed'
+Please review all ERROR, CRITICAL WARNING, and WARNING messages during placement to understand the cause for failure.
+Ending Placer Task | Checksum: ebbb990a
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1214.867 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+44 Infos, 2 Warnings, 2 Critical Warnings and 8 Errors encountered.
+place_design failed
+ERROR: [Common 17-69] Command failed: Placer could not place all instances
+INFO: [Common 17-206] Exiting Vivado at Sun Nov 24 21:59:16 2019...

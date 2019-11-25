@@ -17,6 +17,7 @@ proc create_report { reportName command } {
     send_msg_id runtcl-5 warning "$msg"
   }
 }
+set_param xicom.use_bs_reader 1
 create_project -in_memory -part xc7z020clg400-1
 
 set_param project.singleFileAddWarning.threshold 0
@@ -31,8 +32,11 @@ set_property board_part digilentinc.com:zybo-z7-20:part0:1.0 [current_project]
 set_property ip_output_repo c:/vhdl/xadc/xadc.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 read_vhdl -library xil_defaultlib {
+  C:/vhdl/xadc/xadc.srcs/sources_1/new/debounce.vhd
   C:/vhdl/xadc/xadc.srcs/sources_1/imports/hdl/design_1_wrapper.vhd
   C:/vhdl/xadc/xadc.srcs/sources_1/new/pwm.vhd
+  C:/vhdl/xadc/xadc.srcs/sources_1/new/temperature_controller.vhd
+  C:/vhdl/xadc/xadc.srcs/sources_1/new/timer.vhd
   C:/vhdl/xadc/xadc.srcs/sources_1/new/top.vhd
 }
 add_files C:/vhdl/xadc/xadc.srcs/sources_1/bd/design_1/design_1.bd

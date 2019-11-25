@@ -11,10 +11,10 @@ Compiling package std.standard
 Compiling package std.textio
 Compiling package ieee.std_logic_1164
 Compiling package ieee.numeric_std
-Compiling architecture behavioural of entity xil_defaultlib.Timer [\Timer(trigger_count=20)\]
-Compiling architecture behavioural of entity xil_defaultlib.Timer [\Timer(trigger_count=50)\]
-Compiling architecture behavioural of entity xil_defaultlib.Timer [\Timer(trigger_count=100)\]
-Compiling architecture behavioural of entity xil_defaultlib.Timer [\Timer(trigger_count=300)\]
+Compiling architecture behavioural of entity xil_defaultlib.Timer [\Timer(ms_ticks=1,ms_trigger_cou...]
+Compiling architecture behavioural of entity xil_defaultlib.Timer [\Timer(ms_ticks=1,ms_trigger_cou...]
+Compiling architecture behavioural of entity xil_defaultlib.Timer [\Timer(ms_ticks=1,ms_trigger_cou...]
+Compiling architecture behavioural of entity xil_defaultlib.Timer [\Timer(ms_ticks=1,ms_trigger_cou...]
 Compiling architecture behavioral of entity xil_defaultlib.Temperature_Controller [temperature_controller_default]
 Compiling architecture bench of entity xil_defaultlib.temperature_controller_tb
 Built simulation snapshot Temperature_Controller_tb_behav
