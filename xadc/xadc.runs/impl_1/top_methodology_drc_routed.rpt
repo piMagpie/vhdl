@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
-| Date         : Mon Nov 25 10:33:57 2019
+| Date         : Tue Nov 26 10:37:12 2019
 | Host         : agazorPC running 64-bit major release  (build 9200)
 | Command      : report_methodology -file top_methodology_drc_routed.rpt -pb top_methodology_drc_routed.pb -rpx top_methodology_drc_routed.rpx
 | Design       : top
@@ -23,12 +23,12 @@ Table of Contents
           Floorplan: design_1
       Design limits: <entire design considered>
              Max violations: <unlimited>
-             Violations found: 16
+             Violations found: 17
 +-----------+----------+-------------------------------+------------+
 | Rule      | Severity | Description                   | Violations |
 +-----------+----------+-------------------------------+------------+
 | TIMING-18 | Warning  | Missing input or output delay | 6          |
-| TIMING-20 | Warning  | Non-clocked latch             | 10         |
+| TIMING-20 | Warning  | Non-clocked latch             | 11         |
 +-----------+----------+-------------------------------+------------+
 
 2. REPORT DETAILS
@@ -45,7 +45,7 @@ Related violations: <none>
 
 TIMING-18#3 Warning
 Missing input or output delay  
-An output delay is missing on alarm_led relative to clock(s) sys_clk_pin
+An input delay is missing on on_off_switch relative to clock(s) sys_clk_pin
 Related violations: <none>
 
 TIMING-18#4 Warning
@@ -105,10 +105,15 @@ Related violations: <none>
 
 TIMING-20#9 Warning
 Non-clocked latch  
-The latch uut/alarm_blinkFlag_reg cannot be properly analyzed as its control pin uut/alarm_blinkFlag_reg/G is not reached by a timing clock
+The latch uut/BUZZER_reg cannot be properly analyzed as its control pin uut/BUZZER_reg/G is not reached by a timing clock
 Related violations: <none>
 
 TIMING-20#10 Warning
+Non-clocked latch  
+The latch uut/alarm_blinkFlag_reg cannot be properly analyzed as its control pin uut/alarm_blinkFlag_reg/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#11 Warning
 Non-clocked latch  
 The latch uut/calibration_blinkFlag_reg cannot be properly analyzed as its control pin uut/calibration_blinkFlag_reg/G is not reached by a timing clock
 Related violations: <none>

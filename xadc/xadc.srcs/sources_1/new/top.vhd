@@ -86,7 +86,7 @@ architecture top_arch of top is
 	signal xadc_val: std_logic_vector(15 downto 0);
 begin
     uut: Temperature_Controller port map ( CLK             => CLK,
-                                         on_off_switch     => '1',
+                                         on_off_switch     => on_off_switch,
                                          CALIBRATION     => CALIBRATION,
                                          DISABLE_ALARM   => DISABLE_ALARM,
                                          DISABLE_BUZZER  => DISABLE_BUZZER,

@@ -163,7 +163,11 @@ begin
 	registers_process: process(CLK) is
 	begin
 		if rising_edge(CLK) then
-			p_CURRENT_STATE <= p_NEW_STATE;
+		    if on_off_switch = '1' then
+			     p_CURRENT_STATE <= p_NEW_STATE;
+			else
+			     p_CURRENT_STATE <= CALIBRATION_STATE;
+			end if;
 		end if;
 	end process;
 	
@@ -175,8 +179,8 @@ begin
 
 	begin
 		if rising_edge(CLK) then
-			p_CALIBRATION_DONE_ALERT <= '0';
-			
+                p_CALIBRATION_DONE_ALERT <= '0';
+			if on_off_switch = '1' then
 			if p_CURRENT_STATE = CALIBRATION_STATE then
 				-- scan the temperature
 				if p_CALIBRATION_INTERRUPTION = '1' then
@@ -204,6 +208,9 @@ begin
 			if p_DANGER_TEMP < to_integer(unsigned(avg_temp)) then
                 p_DANGER_TEMP <= 255;
             end if;
+        else
+           counter := 0;
+		end if;
 		end if;
 	end process;
 	
@@ -212,7 +219,7 @@ begin
 
 	begin
 		if rising_edge(CLK) then
-			if p_CALIBRATION_ALERT = '1' 
+		    if on_off_switch = '0'or p_CALIBRATION_ALERT = '1' 
 			         or p_CURRENT_STATE = STANDBY_STATE then -- INITIAL STATE
 				p_NEW_STATE <= CALIBRATION_STATE;
 			elsif p_CURRENT_STATE = CALIBRATION_STATE then -- CALIBRATION
@@ -267,6 +274,7 @@ begin
 			p_COOL_ALERT <= '0';
 			p_DANGER_ALERT <= '0';
 			
+			if on_off_switch = '1' then
 			if no_measure_temp = '0' then
                 if p_CURRENT_STATE = ORANGE_STATE then -- ORANGE
                     if unsigned(ANALOG_TEMP) > p_DANGER_TEMP then
@@ -321,12 +329,13 @@ begin
                     no_measure_temp := '0';
                 end if;
             end if;
+            end if;
 		end if;
 	end process;
 	
 	
 	-- shows the color associated with an state
-	led_process: process(p_CURRENT_STATE, p_TIME_CALIBRATION_BLINK_ENDED)
+	led_process: process(p_CURRENT_STATE, p_TIME_CALIBRATION_BLINK_ENDED, on_off_switch)
 	    procedure showColor(c: color) is
 	    begin
 	       case c is
@@ -343,27 +352,32 @@ begin
 		variable calibration_blinkFlag : std_logic := '1';
 		variable alarm_blinkFlag : std_logic := '1';
 	begin
-		c := getColor(p_CURRENT_STATE);
-		if p_CURRENT_STATE = CALIBRATION_STATE then
-              if p_TIME_CALIBRATION_BLINK_ENDED = '1' then
-                calibration_blinkFlag := not calibration_blinkFlag;
-              end if;
-              if calibration_blinkFlag = '0' then
-                c:= NONE;
-              end if;            
-        end if;
-		showColor(c);
-		
-		-- ALARM LED
-		BUZZER <= '0';
-		if p_CURRENT_STATE = RED_STATE then
-            if p_TIME_CALIBRATION_BLINK_ENDED = '1' then
-                alarm_blinkFlag := not alarm_blinkFlag;
+	    if on_off_switch = '0' then
+            BUZZER <= '0';
+            c := NONE;
+            showColor(c);
+        else
+            -- calibration RGB led
+            c := getColor(p_CURRENT_STATE);
+            if p_CURRENT_STATE = CALIBRATION_STATE then
+                  if p_TIME_CALIBRATION_BLINK_ENDED = '1' then
+                    calibration_blinkFlag := not calibration_blinkFlag;
+                  end if;
+                  if calibration_blinkFlag = '0' then
+                    c:= NONE;
+                  end if;            
             end if;
-              if alarm_blinkFlag = '1' then
-                BUZZER <= '1';
-              end if;             
-        end if;
-		
+            showColor(c);
+                        
+            -- alarm  led        
+            if p_CURRENT_STATE = RED_STATE then
+                if p_TIME_CALIBRATION_BLINK_ENDED = '1' then
+                    alarm_blinkFlag := not alarm_blinkFlag;
+                end if;
+                  if alarm_blinkFlag = '1' then
+                    BUZZER <= '1';
+                  end if;
+             end if;
+        end if;		   
 	end process;
 end Behavioral;
